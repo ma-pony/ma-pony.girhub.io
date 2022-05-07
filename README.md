@@ -1,1 +1,1 @@
-# ma-pony.girhub.io
+# ma-pony.github.io
