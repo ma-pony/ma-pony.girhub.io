@@ -28,6 +28,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: apple
 github_username:  ma-pony
 
+collections:
+  authors:
+    output: true
+
 # Build settings
 markdown: kramdown
 theme: minima
