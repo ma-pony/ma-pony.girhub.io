@@ -1,22 +1,5 @@
 {
-  "name": "ma-pony.github.io",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ma-pony/ma-pony.github.io.git"
-  },
-  "author": "Pony Ma <pony.ma@student.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ma-pony/ma-pony.github.io/issues"
-  },
-  "homepage": "https://github.com/ma-pony/ma-pony.github.io#readme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "description": "",
   "dependencies": {
-    "docsify-cli": "^4.4.4"
+    "docsify": "^4.12.2"
   }
 }
