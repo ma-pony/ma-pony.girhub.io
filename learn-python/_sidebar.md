@@ -1,2 +1,2 @@
 <!-- docs/_sidebar.md -->
-* [hanoi](hanoi.md)
+* [hanoi](/learn-python/hanoi.md)
