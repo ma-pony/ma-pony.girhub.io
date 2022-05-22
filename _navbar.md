@@ -1,7 +1,6 @@
 <!-- _navbar.md -->
-* [Navbar-Python](/learn-python)
-  * [Sqlalchemy](/learn-python/sqlalchemy)
-  * [Flask](/learn-python/flask)
-  * [Django](/learn-python/django)
-
-* [Go](/learn-python/docker)
+* [Python](/learn-python/README.md)
+* [数据结构](/learn-data-structure/README.md)
+* [Go](/learn-go/README.md)
+* [Mysql](/learn-mysql/README.md)
+* [网络](/learn-network/README.md)
