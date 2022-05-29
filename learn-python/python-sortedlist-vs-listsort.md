@@ -8,7 +8,7 @@ tags: python3, python
 You need to upload your image to https://hashnode.com/uploader 
 and use the uploaded image URL as COVER_IMAGE_URL */ 
 
-cover: COVER_IMAGE_URL
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/PbzntH58GLQ/upload/v1653831013147/Tie1TT8RA.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress
 domain: pony.hashnode.dev
 ---
 
