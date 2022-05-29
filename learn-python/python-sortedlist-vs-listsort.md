@@ -18,8 +18,7 @@ publishAs: https://pony.hashnode.dev/python-sortedlist-vs-listsort
 /* When your article is republished and you want to use  the origin url as canonical url */ <br/>
 
 canonical: CANONICAL_URL_OF_ARTICLE 
-/* Only if you don't want this article to be published yet */ 
-ignorePost: true
+/* Only if you don't want this article to be published yet */
 ---
 
 在Python中， 如果我们需要给一个list排序，通常来讲会采取以下两种方式
