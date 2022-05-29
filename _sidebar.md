@@ -6,6 +6,7 @@
   * [SetupTools](/learn-python/setuptools.md)
   * [Socket](/learn-python/socket.md)
   * [汉诺塔](/learn-python/hanoi.md)
+  * [Python Sorted(list) vs List.sort](/learn-python/python-sortedlist-vs-listsort.md)
 
 
 * [数据结构](/learn-data-structure/README.md)
