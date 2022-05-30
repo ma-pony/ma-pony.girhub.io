@@ -1,5 +1,13 @@
 {
+  "name": "blog",
+  "type": "module",
   "dependencies": {
     "docsify": "^4.12.2"
+  },
+  "scripts": {
+    "new": "node new-blog.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0"
   }
 }
