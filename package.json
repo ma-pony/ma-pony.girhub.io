@@ -1,6 +1,7 @@
 {
   "name": "blog",
   "type": "module",
+  "license": "MIT",
   "dependencies": {
     "docsify": "^4.12.2"
   },
