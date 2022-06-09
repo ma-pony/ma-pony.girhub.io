@@ -9,6 +9,7 @@ function createNewBlog(blogName) {
 
   const hashnodeTitle = `---
 title: # TODO
+// title 必须是英文
 subtitle: # TODO
 slug: ${blogName}
 tags: python3, python 
