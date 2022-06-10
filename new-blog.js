@@ -3,8 +3,18 @@ import path from 'path';
 import fs from 'fs';
 
 const domain = 'pony.hashnode.dev';
-const defaultCover = 'https://cdn.hashnode.com/res/hashnode/image/unsplash/PbzntH58GLQ/upload/v1653831013147/Tie1TT8RA.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress';
-
+const defaultCovers = [
+  'https://cdn.hashnode.com/res/hashnode/image/unsplash/PbzntH58GLQ/upload/v1653831013147/Tie1TT8RA.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1654873507223/OlEYD5trN.jpeg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1654873553830/Lr3zj-rih.jpeg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1654873577116/8DzikMhsh.jpeg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1654873600499/l9i6Uuso-.jpeg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1654873621280/aSGCccfeR.jpeg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1654873645238/7TFlE4Q8N.jpeg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1654873665590/Ml999NBdk.jpeg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1654873687009/QnGc5YbhO.jpeg?auto=compress',
+];
+const random = Math.floor(Math.random() * defaultCovers.length);
 function createNewBlog(blogName) {
 
   const hashnodeTitle = `---
@@ -18,7 +28,7 @@ tags: python3, python
 You need to upload your image to https://hashnode.com/uploader 
 and use the uploaded image URL as COVER_IMAGE_URL */ 
 
-cover: ${defaultCover}
+cover: ${defaultCovers[random]}
 domain: ${domain}
 ---
 
