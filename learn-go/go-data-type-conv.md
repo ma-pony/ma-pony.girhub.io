@@ -3,7 +3,7 @@ title: go data type conversion
 // title 必须是英文
 subtitle: go的数据类型转换
 slug: go-data-type-conv
-tags: python3, python 
+tags: go 
 
 /* You can find the list of tags here https://github.com/Hashnode/support/blob/main/misc/tags.json
 You need to upload your image to https://hashnode.com/uploader 
