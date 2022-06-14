@@ -2,7 +2,7 @@
 title: go constant
 // title 必须是英文
 subtitle: go的常量定义
-slug: single-service
+slug: go-constant
 tags: go 
 
 /* You can find the list of tags here https://github.com/Hashnode/support/blob/main/misc/tags.json
