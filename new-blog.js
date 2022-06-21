@@ -13,7 +13,17 @@ const defaultCovers = [
   'https://cdn.hashnode.com/res/hashnode/image/upload/v1654873645238/7TFlE4Q8N.jpeg?auto=compress',
   'https://cdn.hashnode.com/res/hashnode/image/upload/v1654873665590/Ml999NBdk.jpeg?auto=compress',
   'https://cdn.hashnode.com/res/hashnode/image/upload/v1654873687009/QnGc5YbhO.jpeg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1655797951107/2U0H0d7Bo.jpg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1655798015872/68nn5BbTe.jpg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1655798047209/6tz05W_Id.jpg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1655798080649/UxlGTkRKv.jpg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1655798124955/iHFinBeXp.jpg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1655798159171/cvyLrhg5f.jpg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1655798202955/jtbrtoKqG.jpg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1655798263682/bLsWfxBgA.jpg?auto=compress',
+  'https://cdn.hashnode.com/res/hashnode/image/upload/v1655798329568/6fkXInJc_.jpg?auto=compress',
 ];
+
 const random = Math.floor(Math.random() * defaultCovers.length);
 function createNewBlog(blogName) {
 
