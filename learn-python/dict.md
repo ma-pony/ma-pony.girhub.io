@@ -1,4 +1,16 @@
-字典的实现原理(3.6之后)
+---
+title: Python Dict
+subtitle: python字典的实现原理(3.6之后)
+slug: python-dict
+tags: python3, python 
+
+/* You can find the list of tags here https://github.com/Hashnode/support/blob/main/misc/tags.json
+You need to upload your image to https://hashnode.com/uploader 
+and use the uploaded image URL as COVER_IMAGE_URL */ 
+
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1655798329568/6fkXInJc_.jpg?auto=compress
+domain: pony.hashnode.dev
+---
 
 字典底层是维护了一张哈希表entries，简单理解为一个列表，其中每一个元素存储了key hash，key，value 三个元素
 同时还存在一张索引表indices, 记录了哈希表里的索引
@@ -54,12 +66,3 @@ entries = [
     (hash_key, key, value),
 ]
 ```
-
-### 获取值
-
-5. 
-6. 
-7. 
-8. 
-9. 
-
