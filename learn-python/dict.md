@@ -35,13 +35,13 @@ entries = [
 d["key"] = value
 ```
 
-1. 初始化一个空的索引表和哈希表
+1、初始化一个空的索引表和哈希表
 ```python
 indices = [None, None, None, None, None, None, None]
 entries = []
 ```
 
-2. 计算key的hash值和索引
+2、计算key的hash值和索引
 计算key的hash值，在和mask值进行与运算，得到索引
 mask=字典最小长度indicesDictMinSize -1
 ```python
@@ -52,7 +52,7 @@ index = hash_key & (len(indices) - 1)
 ```
 假设获取到的hash_key为333，index为3
 
-3. 填充索引表和哈希表
+3、填充索引表和哈希表
 ```python
 indices[3] = 0
 entries[0] = (hash_key, key, value)
@@ -63,7 +63,7 @@ indices[index]的值为entries的下标
 如果不是, 则说明存在hash冲突, 那需要自动需要空位置插入
 ```
 
-4. 存储完成
+4、存储完成
 ```python
 indices = [None, None, None, 0, None, None, None]
 entries = [
