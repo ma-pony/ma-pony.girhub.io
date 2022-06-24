@@ -5,6 +5,14 @@ subtitle: mysql 索引
 slug: mysql-index
 tags: mysql
 
+/* You can find the list of tags here https://github.com/Hashnode/support/blob/main/misc/tags.json
+You need to upload your image to https://hashnode.com/uploader 
+and use the uploaded image URL as COVER_IMAGE_URL */ 
+
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654873645238/7TFlE4Q8N.jpeg?auto=compress
+domain: pony.hashnode.dev
+---
+
 
 # 索引
 
