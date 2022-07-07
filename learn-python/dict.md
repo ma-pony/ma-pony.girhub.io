@@ -12,6 +12,10 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1655798329568/6fkXInJ
 domain: pony.hashnode.dev
 ---
 
+字典的平均时间复杂度是O1，因为字典是通过哈希算法实现的，哈希算法不可避免的问题就是哈希冲突，
+Python字典如果发送哈希冲突时，会向下寻找空余位置，直到找到位置。
+
+
 字典底层是维护了一张哈希表entries，简单理解为一个列表，其中每一个元素存储了key hash，key，value 三个元素
 同时还存在一张索引表indices, 记录了哈希表里的索引
 
@@ -42,13 +46,13 @@ entries = []
 ```
 
 2、计算key的hash值和索引
-计算key的hash值，在和mask值进行与运算，得到索引
+计算key的hash值，在和mask值进行与运算，得到索引index,这个index就是要插入的indices的下标位置
 mask=字典最小长度indicesDictMinSize -1
 ```python
 hash_key = hash(key)
 index = hash_key & (len(indices) - 1)
 # todo 具体的哈希算法
-
+# 具体算法与Python版本有关，并不一定一样
 ```
 假设获取到的hash_key为333，index为3
 
