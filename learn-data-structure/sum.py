@@ -1,4 +1,7 @@
-def back(candidates: list[int], start: int, size: int, path: list[int], res: list[list], target_sum: int):
+from typing import List
+
+
+def back(candidates: List[int], start: int, size: int, path: List[int], res: List[list], target_sum: int):
     if target_sum < 0:
         return
     elif target_sum == 0:
@@ -11,7 +14,7 @@ def back(candidates: list[int], start: int, size: int, path: list[int], res: lis
             back(candidates, index, size, path + [candidates[index]], res, current_sum)
 
 
-def combination_sum(candidates: list[int], target: int):
+def combination_sum(candidates: List[int], target: int):
     res = []
     path = []
     size = len(candidates)
